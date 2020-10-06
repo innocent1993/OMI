@@ -9,6 +9,7 @@ public class RestClientTest {
 
     RestClient restClient;
 
+    //entry point
     @Test
     public void getPlaceDetails() throws IOException {
         getRestClient().getAddress();
